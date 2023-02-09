@@ -1,0 +1,235 @@
+/* Global css  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 26px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.col_6 {
+    width: 50%;
+}
+.col_4 {
+    width: 33%;
+}
+.col_3 {
+    width: 25%;
+}
+.align_center {
+    text-align: center;
+}
+input,textarea {
+    padding: 21px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 21px;
+    display: block;
+    width: 100%;
+}
+/* banner area  */
+
+
+.banner_area {
+    background-image: url(images/banner/banner3.png);
+    background-size: cover;
+    color: #fff;
+}
+
+section.banner_area {
+    padding: 150px 0;
+}
+
+.banner_content {
+    max-width: 40%;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: right;
+}
+
+.banner_content h1 {
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.button {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #005FAC;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+/* About  */
+section.about_area {
+    padding: 150px 0;
+}
+
+.container_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.about_area .container_row {
+    align-items: center;
+}
+.about_content {
+    max-width: 400px;
+}
+.about_content ul {
+    list-style: none;
+}
+
+.about_content ul li {
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.about_image {
+    padding: 0 50px;
+}
+
+
+/* My plan  */
+
+
+.icon_box {
+    text-align: center;
+    margin-top: 50px;
+}
+.icon_box h3 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+section.my_plan_area {
+    margin-bottom: 150px;
+}
+
+.icon_box p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Call to action  */
+.cta_wrapper {
+    background: url(images/watch.png);
+    background-size: cover;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cta_overlay {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    padding: 59px 64px;
+    color: #fff;
+}
+
+.cta_overlay h2 {
+    max-width: 459px;
+}
+/* contact area  */
+section.contact_area {
+    padding: 130px 0 0;
+}
+
+.form_groups {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.from_field {
+    width: calc(50% - 8px);
+}
+
+.from_field_full {
+    width: 100%;
+}
+.contact_form {
+    margin-top: 50px;
+}
+/* Footer  */
+footer {
+    background: #151414;
+    color: #fff;
+    margin-top: 130px;
+    padding: 130px 0;
+}
+
+footer h2 {
+    font-size: 45px;
+}
+
+
+.social {
+    display: flex;
+    gap: 17px;
+}
+
+
+footer input{
+    border-color:#F3F3F3;
+    margin: 10px 0;
+}
+footer input::placeholder {
+    color: #F3F3F3;
+}
+
+.subscribe_form h4 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+button.subscribe_button {
+    background: #005FAC;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px 36px;
+}
